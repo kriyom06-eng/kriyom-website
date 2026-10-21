@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Careers | KRIYOM Services</title>
+<meta name="description" content="Interested in working with KRIYOM Services? Share your details and work preferences and our team will contact you about suitable opportunities.">
+<meta name="theme-color" content="#111111">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="KRIYOM Services">
+<meta property="og:title" content="Careers | KRIYOM Services">
+<meta property="og:description" content="Share your details with KRIYOM Services for suitable job opportunities.">
+<!-- When the site is live, also add:
+     <link rel="canonical" href="https://YOUR-DOMAIN/">
+     <meta property="og:url" content="https://YOUR-DOMAIN/">
+     <meta property="og:image" content="https://YOUR-DOMAIN/assets/og-image.jpg"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div id="page">
+<header>
+<a class="brand-container" href="index.html" aria-label="KRIYOM Services home">
+<img class="brand-logo" src="assets/kriyom-horse-logo.png" alt="KRIYOM horse emblem" width="120" height="88">
+<span class="brand-wordmark"><span class="brand-name">KRIYOM</span><span class="brand-tagline">SERVICES</span></span>
+</a>
+<button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Menu"><span></span><span></span><span></span></button>
+<nav id="siteNav" aria-label="Main">
+<a href="index.html#about">About</a>
+<a href="index.html#vision">Vision</a>
+<a href="index.html#mission">Mission</a>
+<a href="index.html#values">Values</a>
+<a href="index.html#services">Services</a>
+<a href="careers.html" aria-current="page">Careers</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+<main id="main">
+<section class="page-hero"><div class="page-hero-inner">
+<h1>Careers with KRIYOM.</h1>
+<p>Looking for work? Share your details and work preferences. We will contact you when a suitable opportunity comes up.</p>
+</div></section>
+
+<div class="page-main">
+<section class="form-section" aria-labelledby="career-title">
+<div class="form-intro">
+<h2 id="career-title">Tell us about yourself.</h2>
+<p>Fill in the form with your details and work preferences. We work with skilled, semi-skilled and general manpower roles across several industries, so freshers and experienced candidates are welcome.</p>
+</div>
+<form class="enquiry-form" id="career-form" novalidate>
+<h3>Apply for an opportunity</h3>
+<p class="sub">Fields marked * are required.</p>
+<div class="fields">
+<div class="field"><label for="career-name">Full name *</label><input id="career-name" name="name" autocomplete="name" placeholder="Your name" required></div>
+<div class="field"><label for="career-phone">Phone number *</label><input id="career-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+91 98765 43210" pattern="[0-9+()\s\-]{8,18}" title="Enter a valid phone number, for example +91 98765 43210" required></div>
+<div class="field"><label for="career-email">Email *</label><input id="career-email" name="email" type="email" autocomplete="email" placeholder="name@example.com" required></div>
+<div class="field"><label for="career-city">Current city</label><input id="career-city" name="city" autocomplete="address-level2" placeholder="Where you live now"></div>
+<div class="field"><label for="career-role">Type of work *</label>
+<select id="career-role" name="role" required>
+<option value="" disabled selected>Select one</option>
+<option>Skilled / technical</option><option>Semi-skilled / operator</option><option>General / helper</option>
+<option>Office &amp; administration</option><option>Other</option>
+</select></div>
+<div class="field"><label for="career-exp">Experience *</label>
+<select id="career-exp" name="experience" required>
+<option value="" disabled selected>Select one</option>
+<option>Fresher</option><option>1 to 3 years</option><option>3 to 5 years</option><option>More than 5 years</option>
+</select></div>
+
+<div class="field full"><label for="career-msg">Anything else we should know?</label><textarea id="career-msg" name="message" placeholder="Skills, preferred location, availability (optional)"></textarea></div>
+</div>
+<div class="hp-field" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+<label class="consent"><input type="checkbox" name="consent" required><span>I agree to KRIYOM Services storing and using my details to consider me for job opportunities, as described in the <a href="privacy.html" target="_blank" rel="noopener">privacy notice</a>. *</span></label>
+<button class="btn btn-primary form-submit" type="submit">Submit Application</button>
+<p class="disclaimer">Your application details are sent to the KRIYOM team through our form provider (Web3Forms). If you need to share a CV, please contact the KRIYOM team directly.</p>
+<p class="status" id="career-status" role="status" aria-live="polite"></p>
+</form>
+</section>
+</div>
+</main>
+<footer>
+<div><div class="footer-brand">KRIYOM SERVICES</div><p>Professional manpower &amp; HR solutions</p></div>
+<div class="footer-links">
+<a href="index.html#about">About</a><a href="index.html#services">Services</a><a href="index.html#vision">Vision</a>
+<a href="index.html#mission">Mission</a><a href="index.html#values">Values</a><a href="careers.html">Careers</a>
+<a href="contact.html">Contact</a>
+</div>
+<div class="footer-legal">
+<span>&copy; <span id="year">2026</span> KRIYOM Services. All rights reserved.</span>
+<span><a href="tel:+917760111361">+91 77601 11361</a> &nbsp;|&nbsp; <a href="privacy.html">Privacy notice</a></span>
+</div>
+</footer>
+<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
